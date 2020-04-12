@@ -1,0 +1,199 @@
+@font-face {
+    font-family: comicneue;
+    src: url(../fonts/ComicNeue-Regular.ttf);
+  }
+  @font-face {
+    font-family: comicneue;
+    src: url(../fonts/ComicNeue-Bold.ttf);
+    font-weight: bold;
+  }
+html{
+    font-family: comicneue;
+
+}
+.container{
+    width: 60%;
+    margin: auto;   
+
+}
+.header-bg{
+    background-image: url(../images/header-bg.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    margin: 0px;
+    height: 50vh;
+
+}
+.menu{
+    float: right;
+    margin-top:20px ;
+    list-style-type: none;
+
+}
+.menu li{
+    display: inline;
+    padding: 3px;
+    margin: 3px;
+}
+.menu li a:link,.menu li a:visited{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    margin: 20px 0;
+    width: 8%;
+}
+.heading{
+    color: white;
+
+}
+.icon1{
+    text-align: center;
+    margin-top: 30px;
+    display: inline-block;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 3px;    
+    padding-top: 4px;
+
+
+}
+.twiter{
+    background-color: rgb(0, 153, 255);
+    width: 40px;
+    height: 40px;   
+    padding-top: 6px;
+
+}
+.fire{
+    background-color: red;
+    width: 40px;
+    height: 40px;
+}
+.profile{
+    width: 5%;
+    border-radius: 50%;
+}
+.username{
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 22px;
+
+}
+.username > p{
+    display: inline;
+    margin: 0 10px;
+    color: white;
+
+}
+.username > p:first-child{
+    font-weight: bold;
+}
+.profile2{
+    width: 7%;
+    border-radius: 50%;
+}
+.names{
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+}
+.names > p{
+    margin: 2px;
+}
+.d_line{
+    display: inline;
+    margin: 0 45px;
+}
+.per50{
+    display: inline;
+    width: 50%;
+    float: right;
+}
+.big-img{
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    float: left;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.small-top-img{
+    width: 400px;
+    height: 190px;
+    float: right;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 30px;
+
+}
+.art{
+    max-width: 113%;
+    display: block;
+}
+
+.small-bot-img{
+    width: 190px;
+    height: 190px;
+    float: right;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+}
+.icon2{
+    position: absolute;
+    right: 46.7%;
+    bottom: 22.7%;
+    font-size: 32px;
+    background-color: #d1d1d1;
+    width: 2.4%;
+    height: 4.9%;
+    text-align: center;
+    border-radius: 33%;
+    padding-top: 5px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+.id{
+    position: absolute;
+    right: 38.6%;
+    bottom: 24.2%;
+    color: white;
+
+}
+.main{
+    padding: 25px;
+    margin: 5px;
+    margin-top: 7%;
+    width: 97%;
+    height: 800px;
+    background-color: #f9f9f9;
+    border-radius: 2%;
+}
+.main1{
+    width: 32%;
+    height: auto;
+    display: inline-block;
+
+}
+.mid1{
+    display: inline-block;
+    float: left;
+    border-radius: 9%;
+    width: 49%;
+    margin: -11px 10px;
+}
+.box{
+    width: 100%; 
+    height: 185px;
+}
+.foot1{
+    width: 95%;
+    height: 200px;
+    border-radius: 2%;
+    background-color: #B3B4AF;
+    padding:4% ;
+}
